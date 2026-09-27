@@ -1,5 +1,5 @@
 # Build Stage
-FROM ://microsoft.com AS build
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS build
 WORKDIR /src
 COPY ["BlazorApp.csproj", "./"]
 RUN dotnet restore "BlazorApp.csproj"
