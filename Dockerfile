@@ -11,7 +11,7 @@ FROM build AS publish
 RUN dotnet publish "BlazorApp.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 # Final/Runtime Stage
-FROM ://microsoft.com AS base
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS base
 WORKDIR /app
 EXPOSE 8080
 COPY --from=publish /app/publish .
