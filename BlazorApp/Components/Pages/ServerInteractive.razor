@@ -1,9 +1,9 @@
-﻿@page "/ClientAuto"
-@rendermode @(new InteractiveAutoRenderMode(prerender: true))
+﻿@page "/ServerInteractive"
+@rendermode @(new InteractiveServerRenderMode(prerender: true))
 
-<PageTitle>Client Auto</PageTitle>
+<PageTitle>Server Interactive</PageTitle>
 
-<h1>Client Auto</h1>
+<h1>Server Interactive</h1>
 <p>OnInitialized called @onInitializedCount time(s)</p>
 
 @code {
