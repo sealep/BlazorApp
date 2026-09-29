@@ -10,6 +10,10 @@
     protected override void OnInitialized()
     {
         onInitializedCount++;
+        if (OperatingSystem.IsBrowser())
+        {
+            System.Console.WriteLine($"onInitializedCount: {onInitializedCount}");
+        }
     }
 
     public ServerStatic()
