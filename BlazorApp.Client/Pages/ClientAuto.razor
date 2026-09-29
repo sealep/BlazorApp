@@ -1,5 +1,5 @@
 ﻿@page "/ClientAuto"
-@rendermode @(new InteractiveAutoRenderMode(prerender: false))
+@rendermode @(new InteractiveAutoRenderMode(prerender: true))
 @using Microsoft.Extensions.Logging
 @inject ILogger<ClientAuto> Logger
 
@@ -22,6 +22,7 @@
         else
         {
             Logger.LogInformation($"ClientAuto onInitializedCount: {onInitializedCount}");
+            Logger.LogInformation($"ClientAuto IsInteractive: {RendererInfo.IsInteractive}");
         }
     }
 

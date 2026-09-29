@@ -1,5 +1,5 @@
 ﻿@page "/ClientWASM"
-@rendermode @(new InteractiveWebAssemblyRenderMode(prerender: false))
+@rendermode @(new InteractiveWebAssemblyRenderMode(prerender: true))
 @using Microsoft.Extensions.Logging
 @inject ILogger<ClientWASM> Logger
 
@@ -22,6 +22,8 @@
         else
         {
             Logger.LogInformation($"ClientWASM onInitializedCount: {onInitializedCount}");
+            Logger.LogInformation($"ClientWASM IsInteractive: {RendererInfo.IsInteractive}");
+
         }
     }
 
