@@ -1,4 +1,6 @@
 ﻿@page "/ServerStatic"
+@using Microsoft.Extensions.Logging
+@inject ILogger<ServerStatic> Logger
 
 <PageTitle>Server Static</PageTitle>
 
@@ -14,6 +16,10 @@
         if (OperatingSystem.IsBrowser())
         {
             System.Console.WriteLine($"onInitializedCount: {onInitializedCount}");
+        }
+        else
+        {
+            Logger.LogInformation($"onInitializedCount: {onInitializedCount}");
         }
     }
 

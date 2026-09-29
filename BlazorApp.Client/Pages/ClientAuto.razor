@@ -1,5 +1,7 @@
 ﻿@page "/ClientAuto"
-@rendermode @(new InteractiveAutoRenderMode(prerender: false))
+@rendermode @(new InteractiveAutoRenderMode(prerender: true))
+@using Microsoft.Extensions.Logging
+@inject ILogger<ClientAuto> Logger
 
 <PageTitle>Client Auto</PageTitle>
 
@@ -16,6 +18,10 @@
         if (OperatingSystem.IsBrowser())
         {
             System.Console.WriteLine($"onInitializedCount: {onInitializedCount}");
+        }
+        else
+        {
+            Logger.LogInformation($"onInitializedCount: {onInitializedCount}");
         }
     }
 
