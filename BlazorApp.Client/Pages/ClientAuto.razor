@@ -1,6 +1,17 @@
 ﻿@page "/clientauto"
-@rendermode @(new InteractiveAutoRenderMode(prerender: false))
+@rendermode @(new InteractiveAutoRenderMode(prerender: true))
 
 <PageTitle>ClientAuto</PageTitle>
 
+<h1>ClientAuto</h1>
 <h3>Environment.MachineName: @Environment.MachineName</h3>
+<button @onclick="click">B</button>
+<p>@_name</p>
+
+@code {
+    private string _name = "";
+    void click()
+    {
+        _name = Environment.MachineName;
+    }
+}
