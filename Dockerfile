@@ -1,7 +1,8 @@
 # Build Stage
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
-COPY ["BlazorApp.csproj", "./"]
+COPY ["BlazorApp/BlazorApp.csproj", "BlazorApp/"]
+COPY ["BlazorApp.Client/BlazorApp.Client.csproj", "BlazorApp.Client/"]
 RUN dotnet restore "BlazorApp/BlazorApp.csproj"
 COPY . .
 RUN dotnet build "BlazorApp/BlazorApp.csproj" -c Release -o /app/build
@@ -16,3 +17,5 @@ WORKDIR /app
 EXPOSE 8080
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "BlazorApp.dll"]
+
+
