@@ -7,3 +7,20 @@
 <h3>RendererInfo.IsInteractive: @RendererInfo.IsInteractive</h3>
 <h3>RendererInfo.Name: @RendererInfo.Name</h3>
 <h3>Environment.MachineName: @Environment.MachineName</h3>
+
+
+<p>Status: @statusMessage</p>
+
+@code {
+    private string statusMessage = "Ready";
+
+    private async Task RunWithPause()
+    {
+        statusMessage = "Working...";
+
+        // Pause execution for 2 seconds (2000 milliseconds)
+        await Task.Delay(5000);
+
+        statusMessage = "Done after pause!";
+    }
+}
