@@ -4,12 +4,16 @@
 
 <h1>Server Static</h1>
 <p>OnInitialized called @onInitializedCount time(s)</p>
-<button>Click Me</button>
+<button @onclick="Click">Click Me</button>
 
 @code {
     private int onInitializedCount = 0;
     protected override void OnInitialized()
     {
         onInitializedCount++;
+    }
+    private void Click()
+    {
+
     }
 }

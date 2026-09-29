@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "BlazorApp.Client",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-mUABFgiKVRvK3XrkKU2MhPghEzht/yu+rcW9ZMtp57c=",
+    "hash": "sha256-AXIFU2HDyx3TkIStHrlieresYSs37M5a9GtSCDReh3M=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.nv11mnxpl9.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "BlazorApp.Client.wasm",
-        "name": "BlazorApp.Client.4dfn9kfkrp.wasm",
-        "hash": "sha256-iBbqeFPIRahq1i2SonPO/7XlC96bQc4Sb6jApKzN/TE=",
+        "name": "BlazorApp.Client.ih3u4q7tys.wasm",
+        "hash": "sha256-JklpGeNpwQQf2srEAw7vrcNWMkXf9hoPRu0v4ytG/yU=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "BlazorApp.Client.pdb",
-        "name": "BlazorApp.Client.m1o3msn1nf.pdb",
-        "hash": "sha256-hu0jspfcyICLlEJxRtAnJdycy0otWZc7KoDuGJfsVx8=",
+        "name": "BlazorApp.Client.xexfnpsp6s.pdb",
+        "hash": "sha256-Fy6N5+zGEsWNMUwu53Jg+pv6jg9Ut6f50uJQ08s+XSY=",
         "cache": "force-cache"
       }
     ],
