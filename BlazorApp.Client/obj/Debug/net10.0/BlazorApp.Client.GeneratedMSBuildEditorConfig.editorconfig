@@ -33,6 +33,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/paul-/source/repos/BlazorApp/BlazorApp.Client/Pages/ClientAuto.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50QXV0by5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/paul-/source/repos/BlazorApp/BlazorApp.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
