@@ -1,27 +1,10 @@
 ﻿@page "/clientauto"
 @rendermode @(new InteractiveAutoRenderMode(prerender: true))
 
-<PageTitle>ClientAuto</PageTitle>
 
-<h1>ClientAuto</h1>
-<h3>Environment.MachineName: @_machineName</h3>
+<PageTitle>Client InteractiveAuto</PageTitle>
 
-@if (RendererInfo.IsInteractive)
-{
-    <button @onclick="click">B</button>
-}
-
-<p>@_name</p>
-
-@code {
-    private string _name = "";
-    private string _machineName = "";
-    void click()
-    {
-        _name = Environment.MachineName;
-    }
-    protected override void OnInitialized()
-    {
-        _machineName = Environment.MachineName;
-    }
-}
+<h1>Client InteractiveAuto</h1>
+<h3>RendererInfo.IsInteractive: @RendererInfo.IsInteractive</h3>
+<h3>RendererInfo.Name: @RendererInfo.Name</h3>
+<h3>Environment.MachineName: @Environment.MachineName</h3>
