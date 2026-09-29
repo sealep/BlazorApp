@@ -29,12 +29,12 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/paul-/source/repos/BlazorApp/BlazorApp.Client/Pages/Client.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50LnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/paul-/source/repos/BlazorApp/BlazorApp.Client/Pages/ClientAuto.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50QXV0by5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/paul-/source/repos/BlazorApp/BlazorApp.Client/Pages/ClientWASM.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50V0FTTS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/paul-/source/repos/BlazorApp/BlazorApp.Client/_Imports.razor]
