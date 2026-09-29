@@ -23,4 +23,9 @@
 
         statusMessage = "Done after pause!";
     }
+
+    protected override async void OnInitialized()
+    {
+        await RunWithPause();
+    }
 }
