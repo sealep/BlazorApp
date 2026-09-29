@@ -5,7 +5,12 @@
 
 <h1>ClientAuto</h1>
 <h3>Environment.MachineName: @_machineName</h3>
-<button @onclick="click">B</button>
+
+@if (RendererInfo.IsInteractive)
+{
+    <button @onclick="click">B</button>
+}
+
 <p>@_name</p>
 
 @code {
