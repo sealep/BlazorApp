@@ -1,0 +1,14 @@
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\obj\Debug\net10.0\BlazorApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\obj\Debug\net10.0\BlazorApp.Shared.AssemblyInfoInputs.cache
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\obj\Debug\net10.0\BlazorApp.Shared.AssemblyInfo.cs
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\obj\Debug\net10.0\BlazorApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\obj\Debug\net10.0\BlazorApp.Shared.sourcelink.json
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\obj\Debug\net10.0\BlazorApp.Shared.csproj.AssemblyReference.cache
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\bin\Debug\net10.0\BlazorApp.Shared.deps.json
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\bin\Debug\net10.0\BlazorApp.Shared.dll
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\bin\Debug\net10.0\BlazorApp.Shared.pdb
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\obj\Debug\net10.0\BlazorApp.Shared.dll
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\obj\Debug\net10.0\refint\BlazorApp.Shared.dll
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\obj\Debug\net10.0\BlazorApp.Shared.pdb
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\obj\Debug\net10.0\ref\BlazorApp.Shared.dll
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Shared\obj\Debug\net10.0\BlazorAp.98DDE671.Up2Date

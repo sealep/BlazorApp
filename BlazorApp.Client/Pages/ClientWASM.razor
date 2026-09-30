@@ -2,6 +2,7 @@
 @rendermode @(new InteractiveWebAssemblyRenderMode(prerender: true))
 @using Microsoft.Extensions.Logging
 @inject ILogger<ClientWASM> Logger
+@using static BlazorApp.Shared.Logging
 
 <PageTitle>Client WASM</PageTitle>
 
@@ -15,17 +16,7 @@
     protected override void OnInitialized()
     {
         onInitializedCount++;
-        if (OperatingSystem.IsBrowser())
-        {
-            Logger.LogInformation($"ServerInteractive onInitializedCount: {onInitializedCount}");
-            Logger.LogInformation($"ServerInteractive IsInteractive: {RendererInfo.IsInteractive}");
-        }
-        else
-        {
-            Logger.LogInformation($"ClientWASM onInitializedCount: {onInitializedCount}");
-            Logger.LogInformation($"ClientWASM IsInteractive: {RendererInfo.IsInteractive}");
-
-        }
+        Log(Logger, RendererInfo, "ClientWASM", true, "OnInitialized");
     }
 
     public ClientWASM()

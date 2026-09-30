@@ -15,17 +15,7 @@
     protected override void OnInitialized()
     {
         onInitializedCount++;
-        if (OperatingSystem.IsBrowser())
-        {
-            Logger.LogInformation($"ServerInteractive onInitializedCount: {onInitializedCount}");
-            Logger.LogInformation($"ServerInteractive IsInteractive: {RendererInfo.IsInteractive}");
-        }
-        else
-        {
-            Logger.LogInformation($"ServerInteractive onInitializedCount: {onInitializedCount}");
-            Logger.LogInformation($"ServerInteractive IsInteractive: {RendererInfo.IsInteractive}");
 
-        }
     }
 
     public ServerInteractive()

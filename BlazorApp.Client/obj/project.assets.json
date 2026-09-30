@@ -520,6 +520,20 @@
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
         }
+      },
+      "BlazorApp.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "10.0.12",
+          "Microsoft.Extensions.Logging": "10.0.12"
+        },
+        "compile": {
+          "bin/placeholder/BlazorApp.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorApp.Shared.dll": {}
+        }
       }
     },
     "net10.0/browser-wasm": {
@@ -1040,6 +1054,20 @@
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
+        }
+      },
+      "BlazorApp.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "10.0.12",
+          "Microsoft.Extensions.Logging": "10.0.12"
+        },
+        "compile": {
+          "bin/placeholder/BlazorApp.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorApp.Shared.dll": {}
         }
       }
     }
@@ -1891,10 +1919,16 @@
         "tools/net472/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll"
       ]
+    },
+    "BlazorApp.Shared/1.0.0": {
+      "type": "project",
+      "path": "../BlazorApp.Shared/BlazorApp.Shared.csproj",
+      "msbuildProject": "../BlazorApp.Shared/BlazorApp.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "BlazorApp.Shared >= 1.0.0",
       "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.12",
       "Microsoft.AspNetCore.Components.WebAssembly >= 10.0.12",
       "Microsoft.NET.ILLink.Tasks >= 10.0.12",
@@ -1934,7 +1968,11 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\paul-\\source\\repos\\BlazorApp\\BlazorApp.Shared\\BlazorApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\paul-\\source\\repos\\BlazorApp\\BlazorApp.Shared\\BlazorApp.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
