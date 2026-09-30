@@ -24,7 +24,10 @@
     {
         Log(Logger, RendererInfo, "ClientAuto", true, $"OnAfterRender(firstRender: {firstRender})");
     }
-    public void click() { }
+    public void click()
+    {
+        Log(Logger, RendererInfo, "ClientAuto", true, "click");
+    }
     public ClientAuto()
     {
         this.onInitializedCount = 0;
