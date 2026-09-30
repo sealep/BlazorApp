@@ -14,10 +14,11 @@
 @code {
     [PersistentState]
     public int onInitializedCount { get; set; }
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
         onInitializedCount++;
-        Log(Logger, RendererInfo, "ClientAuto", true, "OnInitialized");
+        Log(Logger, RendererInfo, "ClientAuto", true, "OnInitializedAsync");
+        await Task.Delay(2000);
     }
 
     protected override void OnAfterRender(bool firstRender)
