@@ -19,6 +19,11 @@
         Log(Logger, RendererInfo, "ClientAuto", true, "OnInitialized");
     }
 
+    protected override void OnAfterRender(bool firstRender)
+    {
+        Log(Logger, RendererInfo, "ClientAuto", true, $"OnAfterRender(firstRender: {firstRender})");
+    }
+
     public ClientAuto()
     {
         this.onInitializedCount = 0;

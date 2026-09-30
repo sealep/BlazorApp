@@ -1078,10 +1078,10 @@ C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\bin\Debug\net10.0\wwwroot
 C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp.Shared.qtav451zqc.pdb.gz
 C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\obj\Debug\net10.0\compressed\4vunzfikvp-{0}-qrinsgjvwa-qrinsgjvwa.gz
 C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\obj\Debug\net10.0\compressed\5zvbazqpur-{0}-qtav451zqc-qtav451zqc.gz
-C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp.Client.rv38b35h6p.wasm
-C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp.Client.todfoza1mh.pdb
-C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp.Client.todfoza1mh.pdb.gz
-C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp.Client.rv38b35h6p.wasm.gz
-C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\obj\Debug\net10.0\compressed\p16r1lo9cc-{0}-rv38b35h6p-rv38b35h6p.gz
-C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\obj\Debug\net10.0\compressed\m9lwyok78y-{0}-todfoza1mh-todfoza1mh.gz
-C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\obj\Debug\net10.0\compressed\3pfakntjl4-{0}-buynwyy1z4-buynwyy1z4.gz
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp.Client.5tpypsn5bc.wasm
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp.Client.t4ll42ds0l.pdb
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp.Client.t4ll42ds0l.pdb.gz
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp.Client.5tpypsn5bc.wasm.gz
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\obj\Debug\net10.0\compressed\p16r1lo9cc-{0}-5tpypsn5bc-5tpypsn5bc.gz
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\obj\Debug\net10.0\compressed\m9lwyok78y-{0}-t4ll42ds0l-t4ll42ds0l.gz
+C:\Users\paul-\source\repos\BlazorApp\BlazorApp.Client\obj\Debug\net10.0\compressed\3pfakntjl4-{0}-dz5qavwtl9-dz5qavwtl9.gz
