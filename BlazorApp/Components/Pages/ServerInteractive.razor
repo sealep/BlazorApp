@@ -17,7 +17,8 @@
         onInitializedCount++;
         if (OperatingSystem.IsBrowser())
         {
-            System.Console.WriteLine($"ServerInteractive onInitializedCount: {onInitializedCount}");
+            Logger.LogInformation($"ServerInteractive onInitializedCount: {onInitializedCount}");
+            Logger.LogInformation($"ServerInteractive IsInteractive: {RendererInfo.IsInteractive}");
         }
         else
         {
