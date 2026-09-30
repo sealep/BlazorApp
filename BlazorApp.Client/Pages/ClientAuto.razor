@@ -2,6 +2,7 @@
 @rendermode @(new InteractiveAutoRenderMode(prerender: true))
 @using Microsoft.Extensions.Logging
 @inject ILogger<ClientAuto> Logger
+@using static BlazorApp.Shared.Logging
 
 <PageTitle>Client Auto</PageTitle>
 
@@ -15,15 +16,7 @@
     protected override void OnInitialized()
     {
         onInitializedCount++;
-        if (OperatingSystem.IsBrowser())
-        {
-            System.Console.WriteLine($"ClientAuto onInitializedCount: {onInitializedCount}");
-        }
-        else
-        {
-            Logger.LogInformation($"ClientAuto onInitializedCount: {onInitializedCount}");
-            Logger.LogInformation($"ClientAuto IsInteractive: {RendererInfo.IsInteractive}");
-        }
+        Log(Logger, RendererInfo, "ClientAuto", true, "OnInitialized");
     }
 
     public ClientAuto()
