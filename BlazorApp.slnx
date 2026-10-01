@@ -1,5 +1,4 @@
 <Solution>
   <Project Path="BlazorApp.Client/BlazorApp.Client.csproj" />
-  <Project Path="BlazorApp.Shared/BlazorApp.Shared.csproj" Id="4d5c4601-0cb5-4bf2-8a0f-5c24fd0f741c" />
   <Project Path="BlazorApp/BlazorApp.csproj" />
 </Solution>
